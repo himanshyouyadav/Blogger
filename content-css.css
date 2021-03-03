@@ -1,0 +1,204 @@
+.sub-lines {
+  width: 50%;
+  margin: 0px;
+  margin-left: 10px;
+  margin-top: 8px;
+  font-family: 'Bree Serif', serif;
+
+}
+
+h1 {
+  margin: 0px;
+  margin-left: 15px;
+  font-family: 'Titan One', cursive;
+
+}
+
+.head-container {
+  background-color: #f8f9fa;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.main-content {
+  background-color: #f05454;
+  margin-bottom: 0px;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 1.5rem;
+  padding: 35px;
+  color: white;
+}
+
+.post-suggestion {
+  margin-top: 0px;
+  background-color:#0c60b3;
+  text-align: center;
+  overflow: auto;
+  /*Used for me to set background color for nested divs*/
+}
+
+.suggestion-list {
+  display: flex;
+}
+
+.suggestions {
+  display: inline-block;
+  width: 24%;
+  height: 50%;
+  float: left;
+  text-align: center;
+  background-color: yellow;
+  margin-top: 0PX;
+  margin-left: 4.16%;
+  margin-right: 4.16%;
+  margin-bottom: 4.16%;
+  word-wrap: break-word;
+  /*word-wrap is used if your text is overflowing out of div , so u can print that in next line */
+  padding: 5px;
+  color: black;
+
+}
+
+.suggestion-desc {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+  font-family: 'Patua One', cursive;
+}
+
+h4 {
+  font-family: 'Titan One', cursive;
+}
+
+.bottom-container {
+  padding: 50px;
+  text-align: center;
+}
+
+.social-icon {
+  background-color: white;
+  display: block;
+  margin: auto;
+  width: 25%;
+
+}
+
+h5 {
+  text-align: center;
+  line-height: 2;
+  font-family: 'Patua One', cursive;
+}
+
+.feedback {
+  margin: 20px;
+  padding: 200px auto;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Sansita Swashed', cursive;
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+label {
+  width: 20%;
+  text-align: right;
+  font-family: 'Patua One', cursive;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+input {
+  width: 20%;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 1.5cm;
+  font-family: 'Patua One', cursive;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+textarea {
+  margin: 1px auto;
+  width: 50%;
+  margin: 5px 24%;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 1.5cm;
+  font-family: 'Patua One', cursive;
+
+}
+.Message{
+  border-radius: 10px;
+}
+
+.input-btn {
+  margin: 2px 40%;
+  height: 7%;
+  width: 9%;
+  font-family: monospace;
+  border-radius: 5px;
+  background-color: #dbf6e9;
+  font-family: 'Patua One', cursive;
+  border-color: #3797a4;
+  border-width: 2px;
+  cursor: pointer;
+}
+
+.input-btn:hover {
+  background-color: #1c67ad;
+  color: white;
+}
+
+.Comment{
+  text-align: center;
+  font-size: 50px;
+}
+
+@media only screen and (max-width:768px) {
+
+  .suggestion-list {
+    flex-direction: column;
+  }
+
+  .suggestions {
+    width: 50%;
+    height: 25%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .post-suggestion {
+    padding-bottom: 20px;
+    
+  }
+
+
+  p {
+    font-size: 16px;
+  }
+
+  .sub-lines {
+      width: 80%;
+    }
+  }
+  div.sub-lines p{
+    font-size: 25px;
+    
+ }
+ 
+ .input-btn{
+    height: 25px;
+    width: 55px;
+  }
+  
+  }
+  

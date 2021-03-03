@@ -1,0 +1,61 @@
+.Info{
+    height:200%;
+    width: 100%;
+    display: flex;
+    padding-top: 15px ;
+    background-color: #413C69;
+    padding-bottom: 15px;
+
+
+}
+
+.Connect{
+    text-align: center;
+    padding-top:0px ;
+    position: absolute;
+    right: 20px;
+}
+
+.Social-Icon{
+    display: flex;
+    font-size: 45px;
+    padding: 0px 5px;
+    color: white;
+}
+.Social-Icon:hover{
+    color: crimson;
+    cursor: pointer;
+}
+.Contact{
+    padding-left: 25px;
+
+  
+}
+address , .Contact-No{
+    color: white;
+}
+
+div.Connect h3 ,div.Contact h3{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+
+@media only screen and (max-width:768px)
+{
+    .Info{
+        flex-direction: column;
+        height: 500%;
+    }
+
+    .Connect , .Contact{
+        margin-top: 20px;
+        position: initial;
+        text-align: center;
+    }
+    hr{
+        flex-direction: row;
+    }
+    .Contact{
+    padding-left:0px;
+}

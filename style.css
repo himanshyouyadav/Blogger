@@ -1,0 +1,48 @@
+#Heading{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 3rem;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom: 0px;
+    
+
+}
+.Center{
+    height:720px ;
+    width: 100%;
+}
+.Center{
+    background-color: #cbf1f5;
+}
+#Sub-Heading{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    margin-top: 5px;
+}
+#About-Heading{
+    text-align: center;
+    font-family:monospace;
+    padding: 0px 20px;
+    font-size: 1.4rem;
+}
+.Introduction{
+    position: absolute;;
+    top: 35%;
+    left: 9%;
+    right: 9%;
+    z-index: 0;
+}
+
+@media only screen and (max-width:768px)
+{
+    #Heading{
+        font-size:2rem;
+    }
+    #about-Heading{
+        font-size: 1.2rem;
+    }
+    .Introduction{
+        position: initial;
+    }
+}

@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+}
+.Navbar {
+    display: flex;
+    background-color:#f8f9fa;
+    padding: 20px;
+    color: white;
+    padding: 0px;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+    z-index: 1;
+}
+
+.Navbar-Item {
+    display: flex;
+}
+
+.Navbar-Link {
+    padding-left: 20px;
+    padding-top: 32px;
+    font-family: 'Arvo', serif;
+    padding-bottom: 10px;
+}
+
+.Navbar-Item-Right {
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+.Navbar-Link-Toggle {
+    display: none;
+    margin-right: 35px;
+    margin-top: 22px;
+}
+
+.Navbar-Link-Brand {
+    font-family: 'Arvo', serif;
+    font-size: 2rem;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Brand-Name {
+    text-decoration: none;
+    color: black;
+    font-family: 'Graduate', cursive;
+    
+}
+.Link-Name{
+    font-size: 1rem;
+    text-decoration: none;
+    color:rgb(18, 165, 223);
+}
+.Link-Name:hover{
+    color: blue;
+}
+.Link-Name:focus
+{
+    color: blue;
+}
+.Nav-Icon{
+    text-align: center;
+    margin: 0px;
+    border: 3.5px solid grey;
+    border-radius: 30px;
+    background-color: grey;
+}
+.Navbar-Link-Brand:hover{
+    font-weight: bold;
+}
+@media screen and (max-width:768px) {
+
+    .Navbar-Item,
+    .Navbar {
+        flex-direction: column;
+        
+    }
+    .Navbar{
+        position: sticky;
+    }
+
+    .Navbar-Item-Right {
+        margin-left: 0px;
+    }
+
+    .Navbar-Item {
+        display: none;
+    }
+
+    .Navbar-Link-Toggle {
+        display: initial;
+        align-self: flex-end;
+        position: absolute;
+        cursor: pointer;
+        padding:20px;
+        padding-top:0px;
+    }
+
+    .Nav-Icon:hover {
+        background-color: black;
+        border-color: black;
+       
+
+    }
+    
+    .Nav-Icon:active{
+        border-color: black;
+    }
+    .Navbar-Link{
+        background-color: #d3e0ea;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .Navbar-Link-Brand {
+        font-family: 'Arvo', serif;
+        font-size: 2rem;
+        padding-left: 35px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .Navbar-Link {
+        padding-right: 10px;
+        padding-left: 50px;
+        padding-top: 14px;
+        font-family: 'Arvo', serif;
+    }
+    .Navbar-Item-Right {
+        padding-right: initial;
+    }.Navbar-Link:hover{
+        background-color: thistle;
+    }
+    
+}
